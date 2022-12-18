@@ -1,0 +1,119 @@
+p1
+{
+color: blue;
+text-decoration: underline;
+}
+
+div.box
+{
+color: gray;
+border: 0.5px solid black;
+padding-right: 150px;
+padding-left: 10px;
+margin-right: 5px;
+text-align: center;
+float: left;
+}
+
+img
+{
+margin-right: 5px;
+margin-top: 0px;
+}
+
+.forms
+{
+padding:  100px;
+}
+
+.box1
+{
+    height: 17px;
+padding-bottom: 0px;
+margin-bottom: 20px;
+padding-top: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    body{
+        background-color: rgb(167, 167, 167);
+    }
+    #header1{
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    body{
+        background-color: rgb(196, 196, 196);
+    }
+    #header1{
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    body{
+        background-color: rgb(252, 252, 252);
+    }
+    #header1{
+      width: 80%;
+    }
+  } 
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#header1{
+display: flex;
+justify-content: space-between;
+height: 80px;
+
+}
+
+.headButt{
+  display: flex;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;  
+  padding: 30px;
+}
+.nameButt{
+  width: 25%;
+  padding: 30px;
+}
+#List1{
+  display: flex;
+  
+}
+#block1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+#block2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 80%;
+}
+#theme{
+height:  30px;
+width: 100px;
+
+}
+body{
+  background-color: #aec3eb;
+}
+#buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#tryClick{
+  margin-top: 20px;
+}
