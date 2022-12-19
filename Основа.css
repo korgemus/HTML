@@ -117,3 +117,13 @@ body{
 #tryClick{
   margin-top: 20px;
 }
+.images{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
